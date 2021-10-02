@@ -1,0 +1,2 @@
+HALAMAN ABOUT <a href="/" title="Halaman Home">Ke Halaman Home</a>
+<?php /**PATH D:\Rio\Pemograman web 2 sems 3\project-laravel\code\RioAlfido-09020582024018\web_statis\resources\views/about_us.blade.php ENDPATH**/ ?>
