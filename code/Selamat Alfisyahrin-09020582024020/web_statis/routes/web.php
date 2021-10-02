@@ -14,8 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+<<<<<<< Updated upstream
     return view('regita');
 });
 Route::get('/bebasaa', function () {
     return view('regita');
 }); 
+=======
+    return view('home');
+});
+Route::get('/about', function () {
+    return view('about_us');
+});
+>>>>>>> Stashed changes
