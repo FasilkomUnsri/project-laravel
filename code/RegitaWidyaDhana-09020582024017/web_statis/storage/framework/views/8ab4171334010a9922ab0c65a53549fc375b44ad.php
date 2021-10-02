@@ -1,0 +1,1 @@
+widhya dana<?php /**PATH C:\Users\user\OneDrive\Documents\GitHub\project-laravel\code\RegitaWidyaDhana-09020582024017\web_statis\resources\views/regita.blade.php ENDPATH**/ ?>
