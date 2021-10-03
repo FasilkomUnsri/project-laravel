@@ -1,0 +1,2 @@
+HALAMAN ABOUT
+<a href="/" title="HALAMAN HOME">KEMBALI KE HOME</a>
