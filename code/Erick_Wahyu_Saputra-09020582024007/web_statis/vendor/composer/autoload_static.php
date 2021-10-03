@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit7ccf52fc500695ffd5bf1f67b9b148b4
+class ComposerStaticInitdea02c564361e15d95a1ddfba4bbf000
 {
     public static $files = array (
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
@@ -5444,6 +5444,7 @@ class ComposerStaticInit7ccf52fc500695ffd5bf1f67b9b148b4
         'phpDocumentor\\Reflection\\PseudoTypes\\CallableString' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/PseudoTypes/CallableString.php',
         'phpDocumentor\\Reflection\\PseudoTypes\\False_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/PseudoTypes/False_.php',
         'phpDocumentor\\Reflection\\PseudoTypes\\HtmlEscapedString' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/PseudoTypes/HtmlEscapedString.php',
+        'phpDocumentor\\Reflection\\PseudoTypes\\LiteralString' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/PseudoTypes/LiteralString.php',
         'phpDocumentor\\Reflection\\PseudoTypes\\LowercaseString' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/PseudoTypes/LowercaseString.php',
         'phpDocumentor\\Reflection\\PseudoTypes\\NonEmptyLowercaseString' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/PseudoTypes/NonEmptyLowercaseString.php',
         'phpDocumentor\\Reflection\\PseudoTypes\\NonEmptyString' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/PseudoTypes/NonEmptyString.php',
@@ -5490,10 +5491,10 @@ class ComposerStaticInit7ccf52fc500695ffd5bf1f67b9b148b4
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit7ccf52fc500695ffd5bf1f67b9b148b4::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit7ccf52fc500695ffd5bf1f67b9b148b4::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit7ccf52fc500695ffd5bf1f67b9b148b4::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit7ccf52fc500695ffd5bf1f67b9b148b4::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitdea02c564361e15d95a1ddfba4bbf000::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitdea02c564361e15d95a1ddfba4bbf000::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitdea02c564361e15d95a1ddfba4bbf000::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitdea02c564361e15d95a1ddfba4bbf000::$classMap;
 
         }, null, ClassLoader::class);
     }
