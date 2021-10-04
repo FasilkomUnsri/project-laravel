@@ -1,0 +1,17 @@
+[2021-10-02 10:33:35] local.ERROR: Command "server" is not defined.
+
+Did you mean one of these?
+    make:observer
+    serve {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"server\" is not defined.
+
+Did you mean one of these?
+    make:observer
+    serve at C:\\Users\\user\\OneDrive\\Documents\\GitHub\\project-laravel\\code\\RegitaWidyaDhana-09020582024017\\web_statis\\vendor\\symfony\\console\\Application.php:682)
+[stacktrace]
+#0 C:\\Users\\user\\OneDrive\\Documents\\GitHub\\project-laravel\\code\\RegitaWidyaDhana-09020582024017\\web_statis\\vendor\\symfony\\console\\Application.php(255): Symfony\\Component\\Console\\Application->find('server')
+#1 C:\\Users\\user\\OneDrive\\Documents\\GitHub\\project-laravel\\code\\RegitaWidyaDhana-09020582024017\\web_statis\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\user\\OneDrive\\Documents\\GitHub\\project-laravel\\code\\RegitaWidyaDhana-09020582024017\\web_statis\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(94): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\user\\OneDrive\\Documents\\GitHub\\project-laravel\\code\\RegitaWidyaDhana-09020582024017\\web_statis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\user\\OneDrive\\Documents\\GitHub\\project-laravel\\code\\RegitaWidyaDhana-09020582024017\\web_statis\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
