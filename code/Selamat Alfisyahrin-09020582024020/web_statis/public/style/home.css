@@ -1,0 +1,83 @@
+body{
+	margin-bottom: 0px;
+    padding: 0px;
+    background: url(aot.png);
+    background-size: cover;
+    background-position:center ;
+    font-family: serif;
+    height: 100vh;
+}
+.Logo-Login{
+    color: white;
+    text-align: center;
+}
+
+.text-login{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box{
+    width: 320px;
+    height: 420px;
+    background: rgba(102, 100, 100, 0.397);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px;
+    transform: translate(-50%,-50%);
+}
+
+.text-username{
+    margin-bottom: 0px;
+    font-weight: bold;
+    padding: 0px;
+
+}
+.text-password{
+    margin-bottom: 0px;
+    font-weight: bold;
+    padding: 0px;
+    
+}
+.login-box input{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    background: #1c8adb;
+
+}
+
+.login-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: darkblue;
+    color: white;
+}
+.Logo-Login{
+    color:blanchedalmond ;
+}
+.input-username{
+    color: blanchedalmond;
+}
+.input-password{
+    color: blanchedalmond;
+}
