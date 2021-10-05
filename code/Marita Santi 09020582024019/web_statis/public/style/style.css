@@ -21,7 +21,7 @@ body {
     font-weight: 800;
     float: left;
     font-family: courier;
-    color: #150050;
+    color: #B97A95;
 }
 
 .menu {
@@ -36,13 +36,15 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background: #BFD8B8;
+    background: #CEE5D0;
+    z-index: 1;
+    border-bottom: 1px solid #364F6B;
 }
 
 nav ul {
     list-style-type: none;
-    margin: none;
-    padding: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
 }
 
@@ -51,7 +53,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #506D84;
+    color: brown;
     font-weight: bold;
     text-align: center;
     padding: 0px 16px 0px 16px;
@@ -77,15 +79,15 @@ section {
     font-size: 20px;
     font-weight: bold;
     font-family: 'comic sans ms';
-    color: #150050;
+    color: #316B83;
 }
 
 h2 {
     font-family: 'comic sans ms';
     font-weight: 800;
-    font-size: 40px;
+    font-size: 45px;
     margin-bottom: 20px;
-    color: #150050;
+    color: #316B83;
     width: 100%;
     line-height: 50px;
 }
@@ -100,8 +102,13 @@ a.tbl-biru {
     font-weight: bold;
 }
 
-a. tbl-pink {
-    background: #3f72af;
+a.tbl-biru:hover {
+    background: green;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: green;
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
@@ -110,7 +117,94 @@ a. tbl-pink {
     font-weight: bold;
 }
 
+a.tbl-pink:hover {
+    background: #B97A95;
+    text-decoration: none;
+}
+
 p {
     margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #316B83;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 170px;
+    border-radius: 35%;
+}
+
+#contact {
+    background: #DEDEDE;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #364F6B;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
 }
