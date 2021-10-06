@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://image.freepik.com/free-photo/beautiful-view-empire-states-skyscrapers-new-york-city_181624-6295.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    word-spacing: 10px;
+}
+ul li{
+    display: inline-block;
+}
+ui li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid;
+    transition: 0.6s ease;
+    margin-top: 10px;
+}
+ul li a:hover{
+    background-color:rgb(110, 110, 50);
+    color: #000;
+}
+ul li.active a{
+    background-color:rgb(110, 110, 50);
+    color: #000;
+
+}
+.logo img{
+    float: left;
+    width: 45px;
+    height: auto;
+    margin-top: 20px;
+}
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%  -50%);
+}
+.title h1{
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 50px;
+}
+.button{
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50% -50%);
+}
+.btn1{
+    border: 1px solid;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 5px;
+    margin: 10px;
+}
+.btn1:hover{
+    background: #fff;
+
+}
+.btn2{
+    border: 1px solid;
+    padding: 10px 50px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 5px;
+}
+.btn2:hover{
+    background:#fff;
+}
