@@ -1,0 +1,1 @@
+aldo<?php /**PATH D:\laravel-ka\project-laravel\code\Muhammadrivaldo-09020582024023\web_statis\resources\views/aldo.blade.php ENDPATH**/ ?>
