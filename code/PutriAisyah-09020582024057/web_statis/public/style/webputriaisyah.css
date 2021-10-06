@@ -1,0 +1,106 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    background: #FFDAC7;
+    color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align:center; 
+}
+
+.wrapper{
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.nama a{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    font-family:'Georgia';
+    color: black;
+    text-decoration: none;
+}
+
+.menu{
+    float: left;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    background-color:#FFADAD;
+    border-radius: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left; /*posisi nama nav*/
+}
+
+nav ul li a{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px; /*jarak untuk nav (home tentang dan kontak)*/
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+    font-family:cursive;
+}
+
+h2{
+    font-family:inherit;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tombol{
+    background: #FFADAD;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tombol:hover{
+    background: white;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 5px 10px 5px;
+    padding: 10px 5px 10px 5px;
+}
