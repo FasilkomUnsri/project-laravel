@@ -13,13 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('profil');
+Route::get('/profil', function () {
+    return view('profile');
 });
 Route::get('/posting1', function () {
     return view('posting1');
 });
-Route::get('/posting2', function () {
-    return view('posting2');
-});
-
