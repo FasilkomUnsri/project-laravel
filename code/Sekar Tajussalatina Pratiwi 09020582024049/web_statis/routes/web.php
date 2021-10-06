@@ -17,4 +17,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/about', function () {
+    return view('about_us');
+});
 
+Route::get('/', function () {
+    return view('program_web');
+});
