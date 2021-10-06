@@ -28,3 +28,8 @@ Route::get('/akbar
 ', function () {
     return view('akbar');
 });
+
+Route::get('/maulana
+', function () {
+    return view('maulana');
+});
