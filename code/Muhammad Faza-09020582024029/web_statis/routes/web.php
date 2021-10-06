@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('Home');
+    return view('profil');
 });
+Route::get('/posting1', function () {
+    return view('posting1');
+});
+Route::get('/posting2', function () {
+    return view('posting2');
+});
+

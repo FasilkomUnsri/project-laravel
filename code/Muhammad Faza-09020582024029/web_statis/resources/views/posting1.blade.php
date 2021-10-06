@@ -1,32 +1,29 @@
 <html>
 <head>
 	<title>Tugas Web Muhammad Faza</title>
-	<link rel="stylesheet" type="text/css"
-	media="all" href="style7.css">
+    <link rel="stylesheet" href="/style/custom.css">
 </head>
 <body>
 	<div id="layout">
 		<div id="header">
-		<img src="header.jpg" class="header">
+		<img src="/style/buah.jpg" class="header">
 		</div>
 		<div id="menu">
 			<ul>
-				<li><a href="index7.html">Beranda</a></li>
-				<li><a href="profil.html">Tentang Saya</a></li>
-				<li><a href="kontak.html">Kontak Kami</a></li>
+				
 			</ul>
 			</div>
 		<div id="runningtext">
 		<marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();" direction="left">
-			Selamat Datang di Website kami, Jangan lupa jaga kesehatan anda dengan mengkonsumsi sayur dan buah
+			Selamat Datang di Website Saya, Jangan lupa jaga kesehatan anda dengan mengkonsumsi sayur dan buah
 		</marquee>
 		</div>
 		<div id="sidebar">
 		<div class="widged">
 		<h1 class="judulwidged">Posting Teratas</h1>
 		<ul>
-			<li> <a href="posting1.html">Manfaat Sayuran Bagi Kesehatan</a> </li>
-			<li> <a href="posting2.html">Manfaat Buah-Buahan Bagi Kesehatan</a> </li>
+			<li> <a href="/posting1">Manfaat Sayuran Bagi Kesehatan</a> </li>
+			<li> <a href="/posting2">Manfaat Buah-Buahan Bagi Kesehatan</a> </li>
 
 		</ul>
 		</div>
@@ -34,7 +31,7 @@
 		<div id="isi">
 			<div class="isipostingall">
 				<h2>Manfaat Sayuran Bagi Kesehatan</h2>
-			<img src="posting1.jpg" class="gambarposting1">
+			
 			<p>Manfaat sayur sayuran secara garis besar adalah sumber serat, vitamin, dan mineral yang cukup baik bagi tubuh dan kesehatan manusia. Ada banyak jenis sayuran yang ada di Indonesia yang berkhasiat untuk meningkatkan kesehatan dan metabolisme tubuh.<br><br>
 
             Secara umum manfaat sayuran adalah sebagai berikut :<br>
@@ -58,7 +55,7 @@
 			Manfaat diet buah ini didapatkan dari antioksidan dan vitamin, seperti vitamin C, yang sangat tinggi pada buah-buahan.
 			</div>
 		</div>
-		<div id="footer"> &copy 2021, Tugas Web Muhammad Faza </div>
+		<div id="footer"> </div>
 	</div>
 </body>
 </html>
