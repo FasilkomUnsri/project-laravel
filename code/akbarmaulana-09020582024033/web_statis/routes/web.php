@@ -18,18 +18,6 @@ Route::get('/home', function () {
 });
 
 
-Route::get('/about-us
-', function () {
-    return view('about-us');
-});
-
-
-Route::get('/akbar
-', function () {
-    return view('akbar');
-});
-
-Route::get('/maulana
-', function () {
-    return view('maulana');
+Route::get('/index', function () {
+    return view('index');
 });
