@@ -1,4 +1,4 @@
-body {margin: 0px; background-color: #eaeaea; height: 2000px; font-size: 16px;}
+body {margin: 0px; background-color: #eaeaea;} /*height: 2000px;*/
 .container { 
 	width: auto;
 	height: 40px;
@@ -24,7 +24,7 @@ body {margin: 0px; background-color: #eaeaea; height: 2000px; font-size: 16px;}
 .masuk ul li a:hover {border-bottom: 2px solid white;}
 
 .navbar { 
-	width: 270px;
+	width: 300px;
 	height: 20px;
 	background-color: black;
 	position: absolute; /*fungsinya untuk membuat elemen naik satu dimensi dan dapat mengakses ke manapun*/
@@ -207,7 +207,7 @@ body {margin: 0px; background-color: #eaeaea; height: 2000px; font-size: 16px;}
 }
 .pangan a img {width: 200px; height: 168px; padding: 0px;}
 
-.kategori {
+/* .kategori {
 	width: 130px;
 	height: 350px;
 	background-color: green;
@@ -216,4 +216,16 @@ body {margin: 0px; background-color: #eaeaea; height: 2000px; font-size: 16px;}
 	right: 10px;
 	border-radius: 60px;
 	overflow: hidden;
-}
+} */
+
+.footer {
+	text-align: center; 
+	margin: 0px; 
+	/* background: black;  */
+	color: white; 
+	background: black; 
+	height: 60px;}
+
+.footer p{padding-top:20px;}
+
+.footer a{text-decoration: none; color: white;}
