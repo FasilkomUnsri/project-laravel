@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Anadyaaa</title>
+<title>Anadyaa</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -58,8 +58,29 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
   <div class="w3-container" id="apartment">
     <h2 class="w3-text-green">The Apartment</h2>
     <div class="w3-display-container mySlides">
-    <img src="img/1.jpg" style="width:100%;margin-bottom:-6px">
-
+    <img src="/w3images/livingroom.jpg" style="width:100%;margin-bottom:-6px">
+      <div class="w3-display-bottomleft w3-container w3-black">
+        <p>Living Room</p>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+    <img src="/w3images/diningroom.jpg" style="width:100%;margin-bottom:-6px">
+      <div class="w3-display-bottomleft w3-container w3-black">
+        <p>Dining Room</p>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+    <img src="/w3images/bedroom.jpg" style="width:100%;margin-bottom:-6px">
+      <div class="w3-display-bottomleft w3-container w3-black">
+        <p>Bedroom</p>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+    <img src="/w3images/livingroom2.jpg" style="width:100%;margin-bottom:-6px">
+      <div class="w3-display-bottomleft w3-container w3-black">
+        <p>Living Room II</p>
+      </div>
+    </div>
   </div>
   <div class="w3-row-padding w3-section">
     <div class="w3-col s3">
