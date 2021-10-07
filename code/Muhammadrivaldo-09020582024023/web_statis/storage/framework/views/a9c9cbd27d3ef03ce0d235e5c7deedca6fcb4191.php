@@ -11,7 +11,7 @@
         <div class="medsos">
             <div class="container">
                 <ul>
-                    <li><a href="https://www.instagram.com/rmrivaldo">Instagram</a></li>
+                    <li><a href="https://www.instagram.com/rmrivaldo">INSTAGRAM</a></li>
                 </ul>
             </div>
         </div>
