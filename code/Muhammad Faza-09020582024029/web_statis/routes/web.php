@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('Home');
+Route::get('/profil', function () {
+    return view('profile');
+});
+Route::get('/posting1', function () {
+    return view('posting1');
 });
