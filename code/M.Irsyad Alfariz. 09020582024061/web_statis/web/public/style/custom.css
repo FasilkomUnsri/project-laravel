@@ -1,0 +1,95 @@
+*{
+    padding: 0; 
+    margin: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+body{
+    background: rgb(46, 46, 46);
+    color: rgb(168, 165, 165);
+}
+header{
+}
+header h1{
+    padding: 15px 0;
+    float: left;
+    color: rgb(13, 196, 13);
+}
+header ul{
+    float: left;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    color:white;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0;
+}
+.container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.bg{
+    height: 30vh;
+}
+/* .navbar{
+    float: left;
+    background: transparent;
+    width: 100%;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    display: block;
+    font-weight: bold;
+}
+.navbar li a :hover{
+    background: black;
+    color: white;
+} */
+.center ul{
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    margin: auto;
+}
+.judul{
+    text width: 200px;
+    padding: 1px;
+    float: left;
+    margin: 1px;
+}
+.judul:hover{
+    color: green;
+}
+.h1{
+    color: red;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;;
+}
+.bi{
+    text-align: center;
+}
+
+/* .tengah{
+    float: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
