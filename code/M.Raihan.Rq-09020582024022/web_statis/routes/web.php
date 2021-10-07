@@ -13,17 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/aldo', function () {
-    return view('aldo');
-});
-
-Route::get('/home', function () {
-    return view('home');
-});
-
-Route::get('/about_us', function () {
-    return view('about_us');
-});
-Route::get('/index', function () {
-    return view('index');
+Route::get('/', function () {
+    return view('welcome');
 });

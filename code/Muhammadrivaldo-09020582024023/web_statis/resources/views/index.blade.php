@@ -31,4 +31,3 @@
         
 </body>
 </html>
-<?php /**PATH D:\laravel-ka\project-laravel\code\Muhammadrivaldo-09020582024023\web_statis\resources\views/index.blade.php ENDPATH**/ ?>
