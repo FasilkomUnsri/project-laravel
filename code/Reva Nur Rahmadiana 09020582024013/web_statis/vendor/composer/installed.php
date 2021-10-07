@@ -167,12 +167,12 @@
             'dev_requirement' => false,
         ),
         'guzzlehttp/promises' => array(
-            'pretty_version' => '1.4.1',
-            'version' => '1.4.1.0',
+            'pretty_version' => '1.5.0',
+            'version' => '1.5.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../guzzlehttp/promises',
             'aliases' => array(),
-            'reference' => '8e7d04f1f6450fef59366c399cfad4b9383aa30d',
+            'reference' => '136a635e2b4a49b9d79e9c8fee267ffb257fdba0',
             'dev_requirement' => false,
         ),
         'guzzlehttp/psr7' => array(
@@ -422,12 +422,12 @@
             'dev_requirement' => false,
         ),
         'laravel/serializable-closure' => array(
-            'pretty_version' => 'v1.0.2',
-            'version' => '1.0.2.0',
+            'pretty_version' => 'v1.0.3',
+            'version' => '1.0.3.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/serializable-closure',
             'aliases' => array(),
-            'reference' => '679e24d36ff8b9be0e36f5222244ec8602e18867',
+            'reference' => '6cfc678735f22ccedad761b8cae2bab14c3d8e5b',
             'dev_requirement' => false,
         ),
         'laravel/tinker' => array(
@@ -769,8 +769,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0',
             ),
         ),
         'psr/simple-cache' => array(
