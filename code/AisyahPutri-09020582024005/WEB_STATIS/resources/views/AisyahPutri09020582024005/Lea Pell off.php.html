@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Lea Pell off</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                Toko Masker
+            </div>
+        </header>
+        <nav>
+             <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="kontak-saya.html">Kontak Saya</a></li>
+                <li><a href="tentang-saya.html">Rating Toko</a></li>
+             </ul>
+         </nav>
+       <article>
+                <div class="isi">
+                    <div class="judul">
+                        Lea Pell off
+                    </div>
+                    <img src="img/Lea2.jpg" > 
+                    <p>Lea Pell Off Mask adalah jenis Masker yang ketika sudah kering bisa di kelupas (bukan di bilas) 
+Untuk tipe Peel Off Lea Gloria adalah rubber, sehingga tidak sakit karena karet.
+
+• Kiwi 
+BPOM NA18200200355
+- Merawat pori-pori
+- Menghilangkan Jerawat
+- Menghaluskan, Melembabkan & Mencerahkan
+
+• Lavender
+BPOM NA18200200357
+- Mencerahkan
+- Melembabkan
+- Menutrisi
+- Merawat Kulit
+
+•Rose
+BPOM NA18200200410
+- Membuat kulit lebih sehat
+- Menghaluskan
+- Menghidrasi
+- Menutrisi
+- Mencerahkan
+
+• Silver
+BPOM NA18200200354
+- Mengangkat kotoran kulit
+- Mengeluarkan sebum kulit
+- Mencerahkan & Melembutkan kulit
+
+•Cherry
+BPOM NA18200200356
+- Mencerahkan
+- Menenangkan kulit
+- Menyejukan
+- Melembabkan</p>
+                </div>
+            
+         </article>
+  
+    </div>
+</body>
+</html>
