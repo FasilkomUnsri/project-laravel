@@ -1,0 +1,23 @@
+.main{
+    background-color:steelblue;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    margin-top: 20px;
+    width: 350px;
+    height: 400px;
+    margin-left: 490px;
+
+}
+
+p{
+    text-align: center;
+    background-color: steelblue;
+    margin-left: 500px;
+    margin-right: 500px;
+}
