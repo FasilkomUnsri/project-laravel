@@ -1,0 +1,1 @@
+ini home<?php /**PATH C:\Users\HP\Documents\GitHub\project-laravel\code\teddy saputra herryanto-09020582024002\web_statis\resources\views/home.blade.php ENDPATH**/ ?>
