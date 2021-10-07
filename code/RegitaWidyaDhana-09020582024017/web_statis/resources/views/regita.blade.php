@@ -19,11 +19,11 @@ body {
 <body>
 <h1><strong>WISATA KOTA PALEMBANG</strong>
 </h1>
-<p>1.<a href="Jembatan Ampera.html">Jembata Ampera</a></p>
-<p><img src="jembatan ampera2.jpg" width="531" height="292" /></p>
-<p>2.<a href="Masjid Agung Palembang.html">Masjid Agung Palembang</a></p>
-<p><img src="masjid-agung.jpg" width="534" height="340" /></p>
-<p>3.<a href="Benteng Kuto Besak.html">Benteng Kuto Besak</a></p>
-<p><img src="bkbb.jpg" width="535" height="319" /></p>
+<p>1.<a href="image/Jembatan Ampera.html">Jembata Ampera</a></p>
+<p><img src="image/jembatan ampera2.jpg" width="531" height="292" /></p>
+<p>2.<a href="image/Masjid Agung Palembang.html">Masjid Agung Palembang</a></p>
+<p><img src="image/masjid-agung.jpg" width="534" height="340" /></p>
+<p>3.<a href="image/Benteng Kuto Besak.html">Benteng Kuto Besak</a></p>
+<p><img src="image/bkbb.jpg" width="535" height="319" /></p>
 </body>
 </html>
