@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('tentang/about');
+    return view('about_us');
 });
 
 Route::get('/contact', function () {
