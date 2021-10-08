@@ -1,1 +1,1 @@
-halaman utama 
+HALAMAN UTAMA
