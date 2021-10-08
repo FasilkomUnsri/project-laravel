@@ -23,55 +23,55 @@
 
 <div class='gambar'>
 	<div class='foto'>
-		<img src="Fashion/jaket.jpg">
+		<img src="gambar/Fashion/jaket.jpg">
 		<h3>Hoodie Stylis</h3>
 		<p>Rp 350.000</p>
 		<a href=''>Beli Sekarang</a>
 	</div>
 		<div class='foto'>
-			<img src="Fashion/jam tangan.jpg">
+			<img src="gambar/Fashion/jam tangan.jpg">
 			<h3>Jam Tngan Pria</h3>
 			<p>Rp 250.000</p>
 			<a href=''>Beli Sekarang</a>
 		</div>
 			<div class='foto'>
-				<img src="Fashion/kacamatafashio.jpg">
+				<img src="gambar/Fashion/kacamatafashio.jpg">
 				<h3>Kacamata Pria & Wanita</h3>
 				<p>Rp 150.000</p>
 				<a href=''>Beli Sekarang</a>
 			</div>
 				<div class='foto'>
-					<img src="Fashion/kaostanganpanjang.jpg">
+					<img src="gambar/Fashion/kaostanganpanjang.jpg">
 					<h3>Kaos Tangan Panjang Pria </h3>
 					<p>Rp 200.000</p>
 					<a href=''>Beli Sekarang</a>
 				</div>
 					<div class='foto'>
-						<img src="Fashion/kaostanganpendek.jpg">
+						<img src="gambar/Fashion/kaostanganpendek.jpg">
 						<h3>Kaos Tangan Pendek Pria</h3>
 						<p>Rp 200.000</p>
 						<a href=''>Beli Sekarang</a>
 					</div>
 						<div class='foto'>
-							<img src="Fashion/kuplukpria.jpg">
+							<img src="gambar/Fashion/kuplukpria.jpg">
 							<h3>Kupluk Pria & Wanita</h3>
 							<p>Rp 150.000</p>
 							<a href=''>Beli Sekarang</a>
 						</div>
 							<div class='foto'>
-								<img src="Fashion/celanapendek.jpg">
+								<img src="gambar/Fashion/celanapendek.jpg">
 								<h3>Celana Pendek Pria</h3>
 								<p>Rp 250.000</p>
 								<a href=''>Beli Sekarang</a>
 							</div>
 								<div class='foto'>
-									<img src="Fashion/kaoskakianak.jpg">
+									<img src="gambar/Fashion/kaoskakianak.jpg">
 									<h3>Kaos Kaki Anak</h3>
 									<p>Rp 50.000</p>
 									<a href=''>Beli Sekarang</a>
 								</div>
 									<div class='foto'>
-										<img src="Fashion/vans old">
+										<img src="gambar/Fashion/vans old">
 										<h3>Vans</h3>
 										<p>Rp 500.000</p>
 										<a href=''>Beli Sekarang</a>

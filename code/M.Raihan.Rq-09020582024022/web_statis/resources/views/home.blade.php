@@ -16,7 +16,7 @@
 		<div class="navbar">
 			<ul>
 				<li><a href="/" target="_self">Home |</a></li>
-				<li><a href="" target="_self">Product |</a></li>
+				<li><a href="" target="_self">All Product |</a></li>
 				<li><a href='' >Images |</a></li>
 				<li><a href=''>About |</a></li>
 				<li><a href=''>Contact</a></li>
@@ -30,7 +30,7 @@
 		<div class="searchbar">
 			<form>
 				<input type="search" placeholder="Pencarian">
-				<button type="submit" ><img src="logo search.png"></button>
+				<button type="submit" ><img src="gambar/logo search.png"></button>
 			</form>
 		</div>
 	</div>
@@ -40,7 +40,7 @@
 			<div id="slider">
 			<figure>
 				<div class="slide">
-					<a href=""><img src=""></a>
+					<a href=""><img src="gambar/image musik/gitar akustik.jpg"></a>
 				</div>
 				<div class="slide">
 					<a href=""><img src=""></a>
@@ -59,21 +59,25 @@
 		</div>
 		<div class="musik">
 			<a href="/musik" target="_self">
-			<img src="logo.png" width="190px" height="150px" title="Musik"></a>
+			<img src="gambar/logo.png" width="190px" height="150px" title="Musik"></a>
 		</div>
 		<div class="fashion">
 			<a href="/fashion" target="_self">
-			<img src="fashion.png" width="190px" height="150px" title="fashion pria & wanita "></a>
+			<img src="gambar/fashion.png" width="190px" height="150px" title="fashion pria & wanita "></a>
 		</div>
 		<div class="olahraga">
 			<a href="" target="_self">
-			<img src="sport.jpg" width="190px" height="150px" title="perlengkapan olahraga"></a>
+			<img src="gambar/sport.jpg" width="190px" height="150px" title="perlengkapan olahraga"></a>
 		</div>
 		<div class="pangan">
 			<a href="" target="_self">
-			<img src="pokok.png" width="190px" height="150px" title="kebutuhan pokoks"></a>
+			<img src="gambar/pokok.png" width="190px" height="150px" title="kebutuhan pokoks"></a>
 		</div>
-		<div class="kategori">8</div>
+		<!-- <div class="kategori">8</div> -->
+	</div>
+
+	<div class="footer">
+		<p>@Copyright 2020<a href=' '></a></p>
 	</div>
 </body>
 </html>

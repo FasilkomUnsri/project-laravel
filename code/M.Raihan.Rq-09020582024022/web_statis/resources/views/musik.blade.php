@@ -5,16 +5,14 @@
 		<link rel="stylesheet" href="css/style2.css">
 	</head>
 <body>
-	
 	<div class='header'>
 		<div class='logo'>
-			<h3>Modern||<em>Shop</em></h3>
+			<h2>Modern||<em>Shop</em></h2>
 		</div>
 		<div class='navbar'>
 			<ul>
 				<li><a href="/" target="_self">Home</a></li>
-				<li><a href="product.html" target="_self">Product</a></li>
-				<li><a href=''>Images</a></li>
+				<li><a href="" target="_self">All Product</a></li>
 				<li><a href=''>About</a></li>
 				<li><a href=''>Contact</a></li>
 			</ul>
