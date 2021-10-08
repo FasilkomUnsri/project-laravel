@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Playfair Display', sans-serif;/*Playfair Display nama font dari google*/
+}
+header{
+    height: 70px;
+}
+header h1{
+    display: inline-block;
+    float: left;
+    padding: 13px 24px;
+}
+header h1 a{
+    transition: 0.3s; /*membuat transisi pada hover*/
+}
+header h1 a:hover{
+    color: aqua;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    padding: 24px;
+    display: inline-block;
+}
+header ul li a:hover{
+    transition: 0.3s;
+}
+header ul li a:hover{
+    color: aqua;
+}
+a {
+    text-decoration: none; /**/
+}
+.container{
+    width: 90%;
+    margin: 0 auto; /*0=atas dan bawah. auto= kiri dan kanan*/
+}
+.container::after /* adalah sebuah pseudo elemen yang memperbolehkan kamu untuk menambahkan konten ke dalam sebuah halaman website melalui CSS*/
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+.mobile-menu{
+    float: right;
+    display: none;
+    padding: 18px;
+    border: 1px solid;
+}
+.mobile-menu :hover{
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -300px; /*untuk menyembunyikan sisebar pada saat layar full*/
+    right: 300;
+    background-color:blueviolet;
+    transition: 0.1s;
+    z-index: 9999;/*mengatur tumpukan ini dengan menggunakan z-index. Makin besar nilai z-index maka akan ditampilkan makin depan.*/
+}
+.sidebar ul li a{
+    color: white;
+}
+.sidebar ul li{
+    padding: 24px;
+    transition: 0.3s;
+    transition-property: background-color;
+}
+.sidebar ul li:hover{
+    background-color: turquoise;
+}
+
+#check:checked ~ .sidebar{
+    left: 0;
+    right: 300px;
+}
+/*Benner*/
+section{
+    padding: 50px 0;
+}
+.benner{
+    background-color: blueviolet;
+    padding: 100px 0;
+}
+.benner img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.benner h2{
+    margin-bottom: 10px;
+}
+.benner h2,
+.benner p{
+    color: white;
+}
+.benner p{
+    font-size: 18px;
+}
+.benner-left{
+    padding-left: 24px;
+}
+/*About*/
+section h3{
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+}
+section h3::after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 4px;
+    background-color: red;
+    left: calc(50% - 20px);
+}
+#about p{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;/**jarak antara baris kalimat*/
+    margin-bottom: 15px;
+}
+/**skilis*/
+.bar .nilai{
+    height: 30px;
+    width: 30%;
+    background-color: royalblue;
+    border: 1px solid;
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+.bar .nilaiCSS{
+    height: 30px;
+    width: 20%;
+    background-color: royalblue;
+    border: 1px solid;
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+/*Protfolio*/
+.col-4{
+    width: 25%;
+    box-sizing: border-box;
+    padding: 5px;
+    float: left;
+    text-align: center;
+}
+.col-4 img{
+    padding: 6px;
+   width: 250px;
+}
+.col-4 a:hover img{
+    transform: scale(1.2);
+}
+/*contact*/
+.col-3{
+    width: 33.33%;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    padding: 50px 10px;
+}
+.col-3 h4{
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid royalblue;
+}
+footer{
+    background-color: #746C82;
+    padding: 30px;
+    text-align: center;
+}
+footer small{
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+@media (max-width: 673px){ /*@media digunakan untuk mendefinisikan aturan gaya yang berbeda untuk media jenis / perangkat yang berbeda.*/
+    .mobile-menu{
+        display: block;
+    }
+    header ul{ /*jika layarnya lebarnya 673px maka ul nya menghilang*/
+        display: none;
+    }
+    .col-4{
+        width: 50%;
+    }
+    .col-3{
+        width: 100%;
+    }
+}
