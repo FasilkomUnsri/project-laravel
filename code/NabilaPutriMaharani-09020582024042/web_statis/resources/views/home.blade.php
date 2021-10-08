@@ -1,17 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link href="style/custom.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-    HALAMAN UTAMA
-    <a href="/about" title="Halaman About">KE HALAMAN ABOUT US</a>
+
+	<!-- header -->
+	<div class="medsos">
+		<div class="container">
+			<ul>
+				<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+		<h1><a href="index.html"></a>Nabila Putri Maharani</h1>
+		<ul>
+			<li class="active"><a href="index.html">HOME</a></li>
+			<li><a href="about.html">PRODUCT</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+		</ul>
+		</div>
+	</header>
+
+	<!-- banner -->
+	<section class="banner">
+		<h2>WELCOME TO MY SHOP</h2>
+	</section>
+
+	<!-- about -->
+	<section class="about">
+		<div class="container">
+			<h3>ABOUT</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <strong>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</strong> when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+		</div>
+	</section>
+
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<small> Copyright &copy; 2021 - Nabila Putri Maharani, All Rights Reserved.</small>
+		</div>
+	</footer>
 </body>
-<footer>
-    <script src="style/custom.js"></script>
-</footer>
 </html>
