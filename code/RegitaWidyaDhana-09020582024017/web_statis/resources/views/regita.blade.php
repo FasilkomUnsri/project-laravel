@@ -27,4 +27,3 @@ body {
 <p><img src="image/bkbb.jpg" width="535" height="319" /></p>
 </body>
 </html>
-<?php /**PATH C:\Users\user\OneDrive\Documents\GitHub\project-laravel\code\RegitaWidyaDhana-09020582024017\web_statis\resources\views/regita.blade.php ENDPATH**/ ?>
