@@ -4,8 +4,4 @@
 
 require_once __DIR__ . '/composer/autoload_real.php';
 
-<<<<<<< Updated upstream:code/Muhammad Hatta Chandra-09020582024031/web_statis/web_statis/vendor/autoload.php
 return ComposerAutoloaderInita2c42f21e61c1fe858243c79e47376a8::getLoader();
-=======
-return ComposerAutoloaderInit1aa56075981ad3552ea706fc22b62015::getLoader();
->>>>>>> Stashed changes:code/Felicia Berliana 09020582024001/web_statis/vendor/autoload.php
