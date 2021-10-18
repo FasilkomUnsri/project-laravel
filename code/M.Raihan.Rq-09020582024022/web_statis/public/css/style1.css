@@ -1,0 +1,158 @@
+body {margin: 0px; background-color: #eaeaea; /*height: auto;*/ font-size: 18px;}
+
+.navbar{
+	height: 50px;
+	background-color: black;
+}
+.navbar ul{
+	list-style: none; 
+	padding-top: 13px; 
+	margin: 0px;
+	text-align: center;
+}
+
+.navbar ul li{
+	display: inline; 
+}
+
+.navbar ul li a{text-decoration: none; color: white; }
+
+.navbar ul li a:hover {border-bottom: 2px solid white;}
+
+.container {
+	width: 100%
+	height:	80px;
+	position: relative;
+	margin: 0px;
+	padding: 10px 10px;
+	background-color: white;
+}
+.container h1 {text-shadow: 0px 2px 1px cyan;}
+
+.barbantuan {
+	width: 150px;
+	height: 30px;
+	position: absolute;
+	top: 35px;
+	right: 35px;
+	background-color: white;
+}
+.barbantuan a:hover {padding: 5px 5px;}
+.containerlogin {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background-color: black;
+}
+.logo {
+	width: 325px;
+	height: 425px;
+	position: absolute;
+	top: 40px;
+	right: 200px;
+	background-color: white;
+}
+.logo h1 {
+	width: 20px;
+	height:20px;
+	margin: 0px;
+	padding: 10px 100px;
+}
+
+.Username {
+	width: 300px;
+	height: 83px;
+	background-color: white;
+	position: absolute;
+	top: 60px;
+	left: 12px;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+.Username h3 { width: 110px; padding: 0px 40px; margin: 5px 55px; }
+.Username input { 
+	width: 250px;
+	height: 30px;
+	margin: 10px 21px;
+	padding: 0px 5px;
+}
+.password {
+	width: 300px;
+	height: 83px;
+	background-color: white;
+	position: absolute;
+	top: 165px;
+	left: 12px;
+}
+.password h3 {width: 100px; padding: 0px 52px; margin: 5px 50px;}
+.password input {
+	width: 250px;
+	height: 30px;
+	margin: 10px 21px;
+	padding: 0px 5px;
+}
+.daftar{
+	width: 70px;
+	height:20px;
+	background-color: white;
+	position: absolute;
+	top: 250px;
+	left: 0px;
+	padding: 0px 10px;
+}
+.gantipassword {
+	width: 130px;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	top: 250px;
+	right: 0px;
+}
+.loginbotton {
+	width: 150px;
+	height:	23px;
+	background-color: chartreuse;
+	border-radius: 20px;
+	position: absolute;
+	top: 275px;
+	left: 82px;
+	text-align: center;
+}
+
+.withgoogle {
+	width: 270px;
+	height: 40px;
+	background-color: white;
+	border-radius: 20px;
+	position: absolute;
+	top: 310px;
+	left: 27px;
+}
+.withgoogle a img {margin: auto; padding: 0px 85px;}
+
+.withfacebook {
+	width: 270px;
+	height: 40px;
+	background-color: white;
+	border-radius: 20px;
+	position: absolute;
+	top: 360px;
+	left: 27px;
+}
+.withfacebook a img {margin: auto; padding: 0px 90px;}
+
+.footer {
+	text-align: center; 
+	color: white; 
+	background: black; 
+	height: 60px;
+}
+
+.footer p{
+	padding-top:20px;
+}
+
+.footer a{
+	/* text-decoration: none;  */
+	color: white;
+}

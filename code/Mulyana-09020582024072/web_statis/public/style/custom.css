@@ -1,0 +1,16 @@
+.navbar {
+    width: 100%;
+    height: 46%;
+    background: url(/style/header.png);
+    overflow: auto;
+}
+#projects {
+    background-color: #a69a89;
+    font-size: medium;
+    font-family: Garamond, serif;
+}
+.footer {
+    background: url(/style/footer.png);
+    font-family: Garamond, serif;
+    color: white;
+}
