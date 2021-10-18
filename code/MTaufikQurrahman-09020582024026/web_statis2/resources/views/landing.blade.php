@@ -13,7 +13,7 @@
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="#hero" class="nav-link px-2 text-secondary">Home</a></li>
+                    <li><a href="#slider" class="nav-link px-2 text-secondary">Home</a></li>
                     <li><a href="#about_us" class="nav-link px-2 text-white">About</a></li>
                     <li><a href="#contact_us" class="nav-link px-2 text-white">Contact</a></li>
                 </ul>
@@ -21,7 +21,7 @@
         </div>
     </header>
     <main>
-        <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <section id="slider" class="d-flex flex-column justify-content-center align-items-center">
             <div class="hero-container" data-aos="fade-in">
               <h1>Welcome</h1>
               <p>To <span>MY Portofolio</span></p>
