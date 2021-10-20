@@ -1,0 +1,1 @@
+HALAMAN ABOUT<?php /**PATH C:\Users\USER\Documents\web_statis\resources\views/about_us.blade.php ENDPATH**/ ?>
