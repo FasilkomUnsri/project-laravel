@@ -1,0 +1,45 @@
+.portofolio{
+    background-image:url("clouds.png");
+    background-size:cover ;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.biodata{
+    padding-top: 10px;
+ 
+}
+.display-4{
+    font-family:'Marcellus', serif;
+    font-size: 7vh;
+    color: wheat;
+}
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+}
+.title{
+    font-family: 'DM Serif Text', serif;
+    color: #313031;
+}
+.col{
+    font-family: 'Lobster', cursive;
+}
+.lead{
+    color: wheat;
+}
+
+.judul{
+    margin-bottom: 20px;
+}
+.containerr{
+    margin-top: 70px;
+}
+.card-text{
+    font-family: 'Cinzel', serif;
+}
+h3{
+    margin: 10px;
+    font-family: 'DM Serif Text', serif;
+
+
+    
+}
