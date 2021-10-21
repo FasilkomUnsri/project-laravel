@@ -1,15 +1,14 @@
-![image](https://user-images.githubusercontent.com/90497880/138217966-9ebef2e1-e0dc-4cd2-bb0e-aa122e9f45e4.png)
-![image](https://user-images.githubusercontent.com/90497880/138217999-83916564-c586-40bd-968b-dd2249c075e6.png)
-![image](https://user-images.githubusercontent.com/90497880/138219195-b2f3db32-3850-4a77-ae2e-816e3639f3cf.png)
-![image](https://user-images.githubusercontent.com/90497880/138218025-71ea6a88-ae4f-43a3-b905-d0e7585eed5d.png)
-![image](https://user-images.githubusercontent.com/90497880/138218053-41c2f1e7-8f35-4724-b6c8-62b83c6957fd.png)
-![image](https://user-images.githubusercontent.com/90497880/138219080-5ca60c01-3086-4c42-802e-0ca03f321f7a.png)
-![image](https://user-images.githubusercontent.com/90497880/138219121-db58a66a-921f-44d9-87d1-bdfbf0bf5910.png)
-![image](https://user-images.githubusercontent.com/90497880/138219137-949304ed-2524-4a01-baa9-8d3a01933a63.png)
+![Screenshot (26)](https://user-images.githubusercontent.com/90497875/138221165-60f772ae-68c9-4427-80f9-d9e7e274d818.png)
+![Screenshot (27)](https://user-images.githubusercontent.com/90497875/138221193-fc6c67e8-069b-4b9c-ba68-834d26bb4015.png)
+![Screenshot (28)](https://user-images.githubusercontent.com/90497875/138221207-21bda118-9a7f-48d8-b65b-9a0f7ffdbc42.png)
+![Screenshot (29)](https://user-images.githubusercontent.com/90497875/138221221-b36de19d-9015-455b-9447-9910f9638949.png)
+![Screenshot (30)](https://user-images.githubusercontent.com/90497875/138221237-6f482029-8299-4628-891a-4c26136e5414.png)
 
 
+https://user-images.githubusercontent.com/90497875/138221643-16c30f4d-bafa-4174-af79-5019d18a94d9.mp4
 
 
+https://user-images.githubusercontent.com/90497875/138221663-1d7ef4c8-2621-4cad-8a4f-ddcd9f2e0ee3.mp4
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
@@ -60,6 +59,7 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[OP.GG](https://op.gg)**
 - **[CMS Max](https://www.cmsmax.com/)**
 - **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
 
 ## Contributing
 
