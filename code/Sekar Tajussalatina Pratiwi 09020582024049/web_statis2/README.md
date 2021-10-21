@@ -1,3 +1,12 @@
+![gambar](https://user-images.githubusercontent.com/90497583/138236894-55004c86-8f1e-4d7c-a28f-bace8e3016e9.png)
+![gambar](https://user-images.githubusercontent.com/90497583/138237306-f8e854bb-a25a-4844-9b12-d2c836d1d963.png)
+![gambar](https://user-images.githubusercontent.com/90497583/138237450-a1a4bfe5-23f2-4f6d-b515-5cbb352e2316.png)
+![gambar](https://user-images.githubusercontent.com/90497583/138237574-3ccab564-02ab-4e0f-8663-0f1345f4ef4d.png)
+![gambar](https://user-images.githubusercontent.com/90497583/138237682-8058d62e-d84b-45b8-8a20-78ab0bf7be7f.png)
+![gambar](https://user-images.githubusercontent.com/90497583/138237779-2bb321d8-7465-44ee-ae1e-a819826ed236.png)
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
