@@ -1,0 +1,15 @@
+  .carousel .carousel-item {
+    width: 100%;
+    height: -o-calc(100vh) !important;
+    height: -webkit-calc(100vh) !important;
+    height: -moz-calc(100vh) !important;
+    height: calc(100vh) !important;
+  }
+  .carousel-item img {
+    position: absolute;
+    width: 100%;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+  }
