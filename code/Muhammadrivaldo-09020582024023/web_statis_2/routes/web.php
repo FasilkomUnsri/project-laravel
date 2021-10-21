@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('profil');
+
+Route::get('/Portfolio', function () {
+    return view('Portfolio');
 });

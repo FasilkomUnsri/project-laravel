@@ -1,0 +1,18 @@
+.portofolio{
+    padding: 2rem 1rem;
+    background-color:#e2edff;
+}
+.biodata{
+    padding-top: 10px;
+ 
+}
+.display-4{
+    font-family:'Marcellus', serif;
+    font-size: 7vh;
+}
+.navbar-brand{
+    font-family: 'Ultra', serif;
+}
+.title{
+    font-family: 'DM Serif Text', serif;
+}
