@@ -25,7 +25,7 @@
                     <a class="nav-link active" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#about_us">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -34,7 +34,7 @@
                     <a class="nav-link" href="#carousel">Testimoni</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="#contact_us">Contact</a>
                 </li>
             </ul>
             <span class="navbar-text">
@@ -218,7 +218,7 @@
                         <span class="fs-5">Putri Aisyah</span>
                     </a>
                     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-white"></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
                         <li class="nav-item"><a href="#about_us" class="nav-link px-2 text-white">About</a></li>
                         <li class="nav-item"><a href="#portfolio" class="nav-link px-2 text-white">Portfolio</a></li>
                         <li class="nav-item"><a href="#carousel" class="nav-link px-2 text-white">Testimoni</a></li>
