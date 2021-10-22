@@ -11,7 +11,7 @@
 <body>
     <div class="login-box">
         <div class="logo-login">
-            <h1 class="text-login">Login</h1>
+            <h1 class="text-login">Login</h1>   
         </div>
 
         <form action="/index" class="form-login">
