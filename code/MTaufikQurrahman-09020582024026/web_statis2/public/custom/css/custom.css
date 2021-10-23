@@ -17,7 +17,7 @@
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("/images/slide/slide1.jpg") top center;
+    background: url("/images/slide/foto1.jpg") top center;
     background-size: cover;
   }
   #hero h1 {
@@ -100,7 +100,6 @@
   border: 2px solid #1f5297;
 }
 .tes{
-    margin-left: 500px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
