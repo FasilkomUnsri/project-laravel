@@ -1,3 +1,18 @@
+![image](https://user-images.githubusercontent.com/90497498/138541678-93f1e2fe-f63e-4676-bbb7-ecf440161740.png)
+![image](https://user-images.githubusercontent.com/90497498/138541693-43ec30c6-b9c8-484c-a098-b0382bdd8a6e.png)
+![image](https://user-images.githubusercontent.com/90497498/138541711-9d4f9de5-54b1-42e3-bcd3-345fe78a2d1f.png)
+![image](https://user-images.githubusercontent.com/90497498/138541720-95f455d1-1e97-42f0-86b8-c831eac238cb.png)
+![image](https://user-images.githubusercontent.com/90497498/138541736-816234d9-fc23-4daf-90a9-15956578ebb9.png)
+![image](https://user-images.githubusercontent.com/90497498/138541761-6b63ae18-fa2a-4cb0-bd26-4079d0afff7a.png)
+![image](https://user-images.githubusercontent.com/90497498/138541765-4381808d-10b3-4159-bb11-13240651163b.png)
+![image](https://user-images.githubusercontent.com/90497498/138541778-0a5c6b7e-791f-46cc-9667-b679aa3c04f8.png)
+![image](https://user-images.githubusercontent.com/90497498/138541784-4e76d085-cf70-4126-9db2-ceb4e52e598e.png)
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
