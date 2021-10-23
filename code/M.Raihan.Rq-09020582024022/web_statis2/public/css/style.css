@@ -1,0 +1,41 @@
+.navbar{
+	text-shadow: 0 2px 1px cyan;
+	background: linear-gradient(#9400D3,#9932CC); /*#9400D3,#9932CC,*/
+}
+.jumbotron{
+	text-shadow: 0 2px 1px cyan;
+	/*background: linear-gradient(#9400D3,#9932CC);*/
+	background: linear-gradient(#9400D3,violet); 
+	/*background: linear-gradient(violet,#9400D3);*/
+}
+
+/*.jumbotron img {*/
+	/*border: 2px solid red;*/
+/*}*/
+
+.About h4{
+	text-shadow: 0 2px 1px cyan;
+}
+.container hr{
+	/*width: 150px;*/
+	border-top: 2px solid black;
+}
+
+.Fortopolio{
+	background: linear-gradient(#9932CC,violet);
+	/*#9400D3*/
+}
+
+.Fortopolio h4{
+	text-shadow: 0 2px 1px cyan;
+}
+.Contact h4{
+	text-shadow: 0 2px 1px cyan;
+}
+footer{
+	background: linear-gradient(#9932CC,violet);
+}
+
+/*img{
+	margin:15px;
+}*/

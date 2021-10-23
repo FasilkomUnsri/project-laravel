@@ -13,7 +13,6 @@ body {font-family: "Raleway", Arial, sans-serif}
 
 <!-- !PAGE CONTENT! -->
 <div class="w3-content" style="max-width:1500px">
-
   <!-- Header -->
   <header class="w3-container w3-xlarge w3-padding-24">
     <a href="#" class="w3-left w3-button w3-white">Ari Melukis</a>
