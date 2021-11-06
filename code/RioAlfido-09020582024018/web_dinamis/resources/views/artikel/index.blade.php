@@ -4,8 +4,8 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Artikel</title>
-      <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-      <link rel="stylesheet" href="toastr/toastr.min.css">
+      <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.min.css') }}">
+      <link rel="stylesheet" href="{{ asset('toastr/toastr.min.css') }}">
    </head>
 <body class="d-flex flex-column h-100">
    <main class="flex-shrink-0">
@@ -15,7 +15,7 @@
                <div class="col-md-12">
                   <div class="card">
                      <div class="card-body">
-                        <a href="" class="btn btn-md btn-success mb-3">TAMBAH ARTIKEL</a>
+                        <a href="{{ url('artikel/create') }}" class="btn btn-md btn-success mb-3">TAMBAH ARTIKEL</a>
                         <table class="table table-bordered">
                            <thead>
                               <tr>
@@ -57,9 +57,9 @@
          </section>
       </div>
    </main>
-   <script src="jquery/jquery-3.6.0.min.js"></script>
-   <script src="bootstrap/js/bootstrap.min.js"></script>
-   <script src="toastr/toastr.min.js"></script>
+   <script src="{{ asset('jquery/jquery-3.6.0.min.js') }}"></script>
+   <script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
+   <script src="{{ asset('toastr/toastr.min.js') }}"></script>
    <script>
       @if(session()->has('success'))
       toastr.success('{{ session('success') }}', 'BERHASIL!');
