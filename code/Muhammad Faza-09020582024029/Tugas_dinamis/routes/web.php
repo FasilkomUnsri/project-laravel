@@ -1,8 +1,7 @@
 <?php
 
-use App\Http\Controllers\ArtikelController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ArtikelController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,5 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::resource('pena', PenaController::class);
+Route::resource('artikel', ArtikelController::class);
