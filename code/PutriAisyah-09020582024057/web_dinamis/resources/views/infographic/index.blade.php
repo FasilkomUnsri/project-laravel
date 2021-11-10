@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="{{  asset('bootstrap/css/bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{  asset('toastr/toastr.min.css') }}">
     </head>
-    <body class="d-flex flex-column h-100">
+    <body class="d-flex flex-column h-100" style="background-color:#AAA492;">
         <main class="flex-shrink-0">
             <div class="container mt-5">
                 <section id="section_infographic">
@@ -15,6 +15,8 @@
                     <div class="col-md-12">
                         <div class="card">
                             <div class="card-body">
+                            <h3>Putri Aisyah Daily</h3>
+                            <h1>Data Infografis Terbaik Tahun 2021</h1>
                             <a href="{{ url('infographic/create')}}" class="btn btn-md btn-dark mb-3">Tambah Infografis</a>
                             <table class="table table-bordered">
                             <thead>

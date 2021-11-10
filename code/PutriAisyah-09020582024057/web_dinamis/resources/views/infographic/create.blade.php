@@ -6,7 +6,7 @@
         <title>infographic</title>
         <link rel="stylesheet" href="{{  asset('bootstrap/css/bootstrap.min.css') }}"> 
     </head>
-    <body class="d-flex flex-column h-100">
+    <body class="d-flex flex-column h-100" style="background-color:#AAA492;">
         <main class="flex-shrink-0">
         <div class="container mt-5">
             <section id="section_infographic">
