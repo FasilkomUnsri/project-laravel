@@ -104,7 +104,7 @@
 
 				<div class="col-3">
 					<h4>Telp/Hp</h4>
-					<p>+62 812 74138736</p>
+					<p>+62 812 74138736</p>s
 				</div>	
 			</div>
 		</section>
