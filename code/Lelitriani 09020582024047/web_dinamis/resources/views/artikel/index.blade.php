@@ -15,7 +15,7 @@
             <div class="col-md-12">
               <div class="card">
                 <div class="card-body">
-                  <a href="" class="btn btn-md btn-success mb-3">TAMBAH ARTIKEL</a>
+                  <a href="{{ url('artikel/create') }}" class="btn btn-md btn-success mb-3">TAMBAH ARTIKEL</a>
                   <table class="table table-bordered">
                     <thead>
                       <tr>
@@ -64,7 +64,7 @@
     @if(session()->has('success'))
     toastr.success('{{ session('success') }}', 'BERHASIL!');
     @elseif(session()->has('error'))
-    toastr.error('{{ session('error') }}', 'GAGAL!');
+    toastr.error('{{ session('warning') }}', 'GAGAL!');
     @endif
   </script>
 </body>
