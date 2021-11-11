@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ArtikelController;
+//use App\Http\Controllers\ArtikelController;
+use App\Http\Controllers\DaftarController;
+//use Illuminate\Routing\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +17,8 @@ use App\Http\Controllers\ArtikelController;
 */
 
 Route::get('/', function () {
-    return view('artikel');
+    return view('welcome');
 });
-Route::resource('artikel', ArtikelController::class);
+//Route::resource('artikel', ArtikelController::class);
+Route::resource('daftar', DaftarController::class);
+

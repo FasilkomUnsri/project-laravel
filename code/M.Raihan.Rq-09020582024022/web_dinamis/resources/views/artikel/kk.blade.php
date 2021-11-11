@@ -60,13 +60,19 @@
   <script src="{{ asset('jquery/jquery-3.6.0.min.js')}}"></script>
   <script src="{{ asset('bootstrap/js/bootstrap.min.js')}}"></script>
   <script src="{{ asset('toastr/toastr.min.js')}}"></script>
-  <script>
+  <!-- <script>
     @if(session()->has('success'))
     toastr.success('{{ session('success') }}', 'BERHASIL!');
     @elseif(session()->has('error'))
     toastr.error('{{ session('error') }}', 'GAGAL!');
     @endif
-  </script>
-
+  </script> -->
+  <script>
+    @if(session()->has('success'))
+    toastr.success('{{ session('success')}}', 'BERHASIL');
+    @elseif(session()->has('error'))
+    toastr.error('{{ session('error') }}', 'Gagal!');
+    @endif
+  </script>
 </body>
 </html>
