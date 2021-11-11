@@ -10,8 +10,8 @@ class ArtikelController extends Controller
 {
     public function index()
     {
-        $artikels = Artikel::latest()->paginate(10);
-        return view('artikel.index', compact('artikels'));
+    $artikels = Artikel::latest()->paginate(10);
+    return view('artikel.index', compact('artikels'));
     }
 
     public function create()
@@ -19,12 +19,12 @@ class ArtikelController extends Controller
     return view('artikel.create');
 }
 
-public function store(Request $request)
-{
+    public function store(Request $request)
+    {
     $this->validate($request, [
         'gambar'     => 'required|image|mimes:png,jpg,jpeg',
         'judul'     => 'required',
-        'isi'   => 'required'
+        'penjelasan'   => 'required'
     ]);
 
     $gambar = $request->file('gambar');
@@ -33,16 +33,15 @@ public function store(Request $request)
     $artikel = Artikel::create([
         'gambar'     => $gambar->hashName(),
         'judul'     => $request->judul,
-        'isi'   => $request->isi
+        'penjelasan'   => $request->penjelasan
     ]);
 
     if($artikel){
-        return redirect()->route('artikel.index')->with(['success' => 'Data Berhasil Disimpan!']);
+        return redirect()->route('artikel.index')->with(['success' => 'Selamattt Berhasil Disimpan!']);
     }else{
-        return redirect()->route('artikel.index')->with(['warning' => 'Data Gagal Disimpan!']);
+        return redirect()->route('artikel.index')->with(['error' => 'Hmm Gagal Disimpan!']);
     }
 }
-
 
 public function edit(Artikel $artikel)
 {
@@ -53,7 +52,7 @@ public function update(Request $request, Artikel $artikel)
 {
     $this->validate($request, [
         'judul'     => 'required',
-        'isi'   => 'required'
+        'penjelasan'   => 'required'
     ]);
 
     $artikel = Artikel::findOrFail($artikel->id);
@@ -62,7 +61,7 @@ public function update(Request $request, Artikel $artikel)
 
         $artikel->update([
             'judul'     => $request->judul,
-            'isi'   => $request->isi
+            'penjelasan'   => $request->penjelasan
         ]);
 
     } else {
@@ -75,28 +74,22 @@ public function update(Request $request, Artikel $artikel)
         $artikel->update([
             'gambar'     => $gambar->hashName(),
             'judul'     => $request->judul,
-            'isi'   => $request->isi
+            'penjelasan'   => $request->penjelasan
         ]);
-
     }
+} 
 
-    if($artikel){
-        return redirect()->route('artikel.index')->with(['success' => 'Data Berhasil Diupdate!']);
-    }else{
-        return redirect()->route('artikel.index')->with(['error' => 'Data Gagal Diupdate!']);
-    }
-}
-
-public function destroy($id)
+    public function destroy($id)
 {
     $artikel = Artikel::findOrFail($id);
     Storage::disk('local')->delete('public/artikels/'.$artikel->gambar);
     $artikel->delete();
 
     if($artikel){
-        return redirect()->route('artikel.index')->with(['success' => 'Data Berhasil Dihapus!']);
+        return redirect()->route('artikel.index')->with(['success' => 'Berhasil Dihapus!!!']);
     }else{
-        return redirect()->route('artikel.index')->with(['error' => 'Data Gagal Dihapus!']);
+        return redirect()->route('artikel.index')->with(['error' => 'Gagal Dihapus!!!']);
     }
 }
 }
+ 
