@@ -1,0 +1,9 @@
+[2021-10-22 10:23:04] local.ERROR: Maximum execution time of 60 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 60 seconds exceeded at E:\\Users\\user\\Documents\\GitHub\\project-laravel\\code\\Meiyuhanis-09020582024036\\web_statis2\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\CollisionServiceProvider.php:82)
+[stacktrace]
+#0 {main}
+"} 
+[2021-10-22 10:52:59] local.ERROR: Maximum execution time of 60 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 60 seconds exceeded at E:\\Users\\user\\Documents\\GitHub\\project-laravel\\code\\Meiyuhanis-09020582024036\\web_statis2\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\BladeCompiler.php:10)
+[stacktrace]
+#0 {main}
+"} 
