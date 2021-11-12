@@ -1,13 +1,12 @@
 <?php
 
-namespace App\models;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-class artikel extends Model
+class Artikel extends Model
 {
     use HasFactory;
-
     protected $fillable = [
         'judul', 'isi', 'gambar'
     ];

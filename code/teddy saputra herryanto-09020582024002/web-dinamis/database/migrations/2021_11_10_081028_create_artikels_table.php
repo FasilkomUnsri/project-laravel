@@ -15,6 +15,9 @@ class CreateArtikelsTable extends Migration
     {
         Schema::create('artikels', function (Blueprint $table) {
             $table->id();
+            $table->string('judul');
+            $table->text('isi');
+            $table->string('gambar');
             $table->timestamps();
         });
     }
