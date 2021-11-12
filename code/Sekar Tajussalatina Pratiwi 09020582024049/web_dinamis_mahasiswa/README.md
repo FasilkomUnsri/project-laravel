@@ -1,3 +1,11 @@
+create mahasiswa
+![gambar](https://user-images.githubusercontent.com/90497583/141463895-a69f6150-27cd-4c98-95bb-8cdb65e07d5a.png)
+edit mahasiswa
+![gambar](https://user-images.githubusercontent.com/90497583/141464059-7fe8c53a-da71-4dd8-9a41-4abc06eb7d29.png)
+hapus mahasiswa
+![gambar](https://user-images.githubusercontent.com/90497583/141464155-54255f79-ee17-41a6-8d41-18e60cf4d657.png)
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
