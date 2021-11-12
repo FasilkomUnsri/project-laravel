@@ -1,3 +1,9 @@
+![Screenshot (36)](https://user-images.githubusercontent.com/90509619/141231599-cf2b6082-758a-436e-9888-3392c752e670.png)
+![Screenshot (37)](https://user-images.githubusercontent.com/90509619/141231616-551af4b0-6cad-4fab-8093-f0656f416b17.png)
+![Screenshot (38)](https://user-images.githubusercontent.com/90509619/141231628-9baf636d-043d-4fa5-8ebc-83febcd871f1.png)
+![Screenshot (39)](https://user-images.githubusercontent.com/90509619/141231641-6202333c-d7dc-4586-ab04-8456586f8eb8.png)
+![Screenshot (40)](https://user-images.githubusercontent.com/90509619/141231654-31bbd7f2-8f19-41d9-82e0-8848619867a8.png)
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -47,6 +53,7 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[CMS Max](https://www.cmsmax.com/)**
 - **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
 - **[Lendio](https://lendio.com)**
+- **[Romega Software](https://romegasoftware.com)**
 
 ## Contributing
 
