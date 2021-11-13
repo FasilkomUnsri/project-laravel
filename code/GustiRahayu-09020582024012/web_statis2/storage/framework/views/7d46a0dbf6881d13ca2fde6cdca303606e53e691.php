@@ -1,0 +1,1 @@
+<?php /**PATH C:\project-laravel\code\GustiRahayu-09020582024012\web_statis2\resources\views/landing.blade.php ENDPATH**/ ?>
