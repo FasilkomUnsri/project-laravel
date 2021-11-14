@@ -1,0 +1,137 @@
+*{
+    padding: 0; 
+    margin: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.container{
+    position: fixed;
+}
+
+body{
+    background: rgb(43, 42, 42);
+    color: rgb(221, 216, 216);
+  
+       
+}
+.aka{
+    padding-top: 10px;
+    text-align: left;
+}
+
+
+
+
+h2{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.p1{
+    text-align: left;
+    font-size: medium;
+}
+.bca{
+    text-align: center;
+    padding-top: 300px;
+    font-size: 50px;
+}
+.inspiratif{
+
+    margin:20px 10% 20px 10%;
+	display:grid;
+	grid-template:repeat(2,1fr)/repeat(3,1fr);
+	grid-column-gap:10px;
+	justify-items:center;
+}
+.project-tile{
+	margin-bottom:80px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.project-tile img{
+	width: 250px;
+}
+.project-tile img{
+	width: 400px;
+    height: 300px;
+}
+
+
+.gambar{
+    padding-top: 50px;
+    background: url('/style/bss.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 30px;
+    background-size: cover;
+
+}
+
+h1{
+    text-align: center;
+    padding-top: 250px;
+    font-family:  serif;
+    font-size: 50px;
+
+}
+p{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+
+}
+.aptzy{
+    padding-top: 1000px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+header ul{
+   text-align: center;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+    
+}
+header ul li a:hover{
+    color:white;
+    font-style: bold;
+}
+
+
+.container{
+    width: 100%;
+    margin: 0;
+    background-color: rgb(29, 29, 29);
+    
+}
+.container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.bg{
+    height: 30vh;
+}
+.center ul{
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    margin: auto;
+}
+
