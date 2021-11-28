@@ -1,0 +1,25 @@
+.jumbotron {
+    padding-top: 5rem;
+    background-color: #edf1be; 
+}
+
+.space {
+    min-height: 200px;
+}
+
+
+.space2 {
+    min-height: 250px;
+}
+
+.space3 {
+    min-height: 200px;
+}
+
+.space4 {
+    min-height: 200px;
+}
+
+section {
+    padding-top: 5rem;
+} 
