@@ -1,4 +1,40 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+Read
+
+![image](https://user-images.githubusercontent.com/90497880/141228470-df37c50c-7dc9-4e91-99c1-c60e6c6b644a.png)
+
+Create
+
+![image](https://user-images.githubusercontent.com/90497880/141228523-9992b705-2467-48ce-84bb-f349f9875605.png)
+![image](https://user-images.githubusercontent.com/90497880/141228587-93a5d55c-0759-42a9-9857-30ce32e3aa50.png)
+
+Update
+
+![image](https://user-images.githubusercontent.com/90497880/141228633-c46dc79f-c390-4e2a-b546-5f1aa8d1fe19.png)
+![image](https://user-images.githubusercontent.com/90497880/141228941-eaa02fb9-2878-48a8-95b7-ad1fca5c2684.png)
+
+Delete
+
+![image](https://user-images.githubusercontent.com/90497880/141229099-b8c1cd79-6e9b-4205-a311-8b201ba5032f.png)
+![image](https://user-images.githubusercontent.com/90497880/141229163-f8f34174-393c-4447-8ed9-1999cb5d6b54.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>

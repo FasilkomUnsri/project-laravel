@@ -15,7 +15,7 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-body">
-                            <a href="" class="btn btn-md btn-success mb-3" >Tambah Daftar</a>
+                            <a href="create.blade.php" class="btn btn-md btn-success mb-3" >Tambah Daftar</a>
                             <table class="table table-bordered">
                                 <thead>
                                     <tr>
@@ -30,7 +30,7 @@
                                     @forelse ($daftars as $daftar)
                                     <tr>
                                         <td>{{ $daftar->nama }}</td>
-                                        <td>{{ $daftar->tgl_lahir</td>
+                                        <td>{{ $daftar->tgl_lahir}}</td>
                                         <td>{{ $daftar->jurusan}}</td>
                                         <td class="text-center">
                                             <img src="{{ Storage::url('public/daftars/').$daftar->fhoto}}" class="rounded " style="witdh: 150px">
