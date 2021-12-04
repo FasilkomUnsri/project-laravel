@@ -11,7 +11,7 @@ class ArtikelController extends Controller
     public function index()
 
     {
-        $artikel = Artikel::latest()->paginate(10);
+        $artikels = Artikel::latest()->paginate(10);
         return view('artikel.index', compact('artikels'));
     }
     public function create()
@@ -79,7 +79,7 @@ public function update(Request $request, Artikel $artikel)
 
     }
 
-    if($artikel){
+    if($artikels){
         return redirect()->route('artikel.index')->with(['success' => 'Data Berhasil Diupdate!']);
     }else{
         return redirect()->route('artikel.index')->with(['error' => 'Data Gagal Diupdate!']);
